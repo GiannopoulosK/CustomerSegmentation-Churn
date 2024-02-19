@@ -124,4 +124,5 @@ Kaggle Dataset URL: [Dataset on Kaggle](https://www.kaggle.com/datasets/thedevas
 
 ## Thank you for sticking around! Feel free to contact me for any questions
 [Connect with me on LinkedIn](https://www.linkedin.com/in/kongiannopoulos/)
+
 [Check out my Kaggle Profile](https://www.kaggle.com/giannopouloskon)
