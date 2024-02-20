@@ -68,7 +68,7 @@
 
 1. **Data Imputing:** Replaced 'Unknown' values in three columns with the mode of the columns (Reduced model complexity and results were improved slightly).
 2. **Feature Engineering:** Experimented with creating/categorizing features to improve model performance.
-**Feature Transformations:** Applied transformations to columns to reduce skewness. Example implementation:
+3. **Feature Transformations:** Applied transformations to columns to reduce skewness. Example implementation:
 ![Transformation Example](charts/transformations_example.png)
 4. **Encoding:** Label encoded variables with a real-life order to them and One-Hot-Encoded purely categorical ones.
 5. **Scaling:** Utilized sklearn MinMaxScaler for scaling all numerical variables.
