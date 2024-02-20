@@ -1,9 +1,8 @@
-# Welcome to my project on Customer Segmentation and Churn Prediction!
+# Welcome to my exciting project on Customer Segmentation and Churn Prediction! 🚀
 
-### In this project, I utilized Machine Learning techniques to achieve the following results:
+### Dive into the world of data magic, where Machine Learning transforms raw information into valuable insights! 💡
 
-## Clustering:
-
+## Clustering Results ✨:
 | Metric                  | Value                  |
 |-------------------------|------------------------| 
 | Inertia                 | 4278.43                |  
@@ -11,8 +10,7 @@
 | Calinski Harabasz Score | 2978.44                |
 | Davies Bouldin Score    | 1.3723                 |                                                                                
 
-## Churn Prediction:
-
+## Churn Prediction Results 💻:
 | Model                     | Class 1 Recall | Class 1 F1 | Accuracy |
 |---------------------------|----------------|------------|----------|
 | Base Logistic Regression  | 0.84           | 0.65       | 0.85     |
@@ -29,30 +27,30 @@
 | Ensemble Tuned Models     | 0.9            | 0.89       | 0.96     |
 | Ensemble XGB Models       | 0.89           | 0.9        | 0.97     |
 
-# Let's see how I did it!
+# Let's see how I did it! 🔍
 
-## Tools and Libraries Used:
-- Pandas
-- NumPy
-- SciPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Imbalanced-learn
-- XGBoost
-- LightGBM
+## Tools and Libraries Used 🛠️:
+- Pandas 🐼
+- NumPy 🔢
+- SciPy 📈
+- Matplotlib 📊
+- Seaborn 🌊
+- Scikit-learn 🧠
+- Imbalanced-learn ⚖️
+- XGBoost 🌳
+- LightGBM 🌟
 
-# Data: 
-### For this project, I used data directly from Kaggle without doing any data collection myself. Below are the links for the dataset:
+# Data 📊: 
+### The data used in this project were sourced by kaggle:
 
 - [Original Dataset](https://zenodo.org/records/4322342#.Y8OsBdJBwUE)
 - [Dataset on Kaggle](https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m)
 
-# EDA:
-### During Exploratory Data Analysis, I delved deep into the data performing univariate, bivariate, and multivariate analysis, in which I identified a lot of outliers in four of the columns, as seen below:
+# EDA 🕵️‍♀️:
+### During this stage, I delved deep into the data performing univariate, bivariate, and multivariate analysis, during which I identified a lot of outliers in four of the columns, as seen below:
 ![Outlier Dashboard](charts/outlier_dashboard.png)
 
-# Outlier Detection and Handling:
+# Outlier Detection and Handling 🛡️:
 ### For detecting the outliers, I used an ensemble technique using:
 - Modified Z-score
 - IQR
@@ -60,11 +58,11 @@
 
 ![Isolation Forest Example](charts/isolation_forest_example.png)
 
-#### Zscore was not used because of the high skewness these variables had.
+#### Zscore was not used due to high skewness in variables.
 
-### After running the models with and without outliers, it turned out performance was better if no outlier handling was done.
+### Models turned out to perform better without outlier handling! 📈
 
-# Data Preprocessing:
+# Data Preprocessing 🛠️:
 
 ### During this stage, I made sure to avoid data leakage by creating my train, evaluation, and test datasets before doing any preprocessing. This process was done in the following steps:
 
@@ -83,7 +81,7 @@
 
 - Variance Threshold
 
-# Clustering:
+# Clustering 🧩:
 
 ### Models used:
 - KMeans
@@ -98,16 +96,16 @@
 - Calinski-Harabasz Score
 - Davies-Bouldin Score
 
-### Optimal number of clusters turned out to be 4.
+### Optimal number of clusters turned out to be 4! 🎯
 ![Cluster Metrics](charts/cluster_metrics.png)
 
-### After a lot of iteration, it turned out that clustering results were not adequate to be used for further analysis, but some noteworthy insights arose from the whole process(Check out the code for more!)
+### Clustering didn't directly lead to actionable insights, but provided valuable observations. 🔍
 
 ### Mean Feature Values for each cluster:
 ![Mean Feature Values](charts/mean_feature_values.png)
 
-# Customer Churn:
-### Before fitting the model, SMOTE was applied because the target variable was imbalanced.
+# Customer Churn 💼:
+### Before fitting the model, SMOTE was applied to tackle imbalanced target variable! ⚖️
 
 ![SMOTE Implementation](charts/smote.png)
 
@@ -125,10 +123,9 @@
 - F1-score
 - Accuracy
 
-### Due to the nature of the problem, more emphasis was given on Recall. Finally, I managed to achieve over 90% recall with a 97% overall accuracy!
+### Emphasis was on Recall due to the nature of the problem, leading to over 90% recall and 97% overall accuracy! 🎯🚀
 
-
-## Thank you for sticking around! Feel free to contact me for any questions.
+## Thank you for joining me on this data journey! Feel free to reach out for further exploration! 🌟🔍
 
 [Connect with me on LinkedIn](https://www.linkedin.com/in/kongiannopoulos/)
 
