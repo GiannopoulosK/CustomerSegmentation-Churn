@@ -1,6 +1,6 @@
-# Welcome to my exciting project on Customer Segmentation and Churn Prediction! 🚀
+# Welcome to my project on Customer Segmentation and Churn Prediction! 🚀
 
-### Dive into the world of data magic, where Machine Learning transforms raw information into valuable insights! 💡
+### Dive with me into the data, where Machine Learning provides  valuable insights! 💡
 
 ## Clustering Results ✨:
 | Metric                  | Value                  |
