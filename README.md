@@ -111,6 +111,7 @@
 
 ![SMOTE Implementation](smote.png)
 
+
 ### Models used:
 - LogisticRegression
 - RandomForest 
