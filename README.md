@@ -50,7 +50,7 @@
 
 # EDA:
 ### During Exploratory Data Analysis, I delved deep into the data performing univariate, bivariate, and multivariate analysis, in which I identified a lot of outliers in four of the columns, as seen below:
-![Outlier Dashboard](outlier_dashboard.png)
+![Outlier Dashboard](charts/outlier_dashboard.png)
 
 # Outlier Detection and Handling:
 ### For detecting the outliers, I used an ensemble technique using:
@@ -58,7 +58,7 @@
 - IQR
 - Isolation Forest
 
-![Isolation Forest Example](isolation_forest_example.png)
+![Isolation Forest Example](charts/isolation_forest_example.png)
 
 #### Zscore was not used because of the high skewness these variables had.
 
@@ -71,15 +71,15 @@
 1. **Data Imputing:** Replaced 'Unknown' values in three columns with the mode of the columns (Reduced model complexity and results were improved slightly).
 2. **Feature Engineering:** Experimented with creating/categorizing features to improve model performance.
 **Feature Transformations:** Applied transformations to columns to reduce skewness. Example implementation:
-![Transformation Example](transformations_example.png)
+![Transformation Example](charts/transformations_example.png)
 4. **Encoding:** Label encoded variables with a real-life order to them and One-Hot-Encoded purely categorical ones.
 5. **Scaling:** Utilized sklearn MinMaxScaler for scaling all numerical variables.
 6. **Feature Selection:** In this stage, I tried to reduce dimensionality using techniques such as correlations, dendrogram analysis, and variance threshold.
 - Correlations 
-![Correlation Matrix](correlation_matrix.png)
+![Correlation Matrix](charts/correlation_matrix.png)
 
 - Dendrogram Analysis
-![Dendrogram](dendrogram.png)
+![Dendrogram](charts/dendrogram.png)
 
 - Variance Threshold
 
@@ -99,17 +99,17 @@
 - Davies-Bouldin Score
 
 ### Optimal number of clusters turned out to be 4.
-![Cluster Metrics](cluster_metrics.png)
+![Cluster Metrics](charts/cluster_metrics.png)
 
 ### After a lot of iteration, it turned out that clustering results were not adequate to be used for further analysis, but some noteworthy insights arose from the whole process(Check out the code for more!)
 
 ### Mean Feature Values for each cluster:
-![Mean Feature Values](mean_feature_values.png)
+![Mean Feature Values](charts/mean_feature_values.png)
 
 # Customer Churn:
 ### Before fitting the model, SMOTE was applied because the target variable was imbalanced.
 
-![SMOTE Implementation](smote.png)
+![SMOTE Implementation](charts/smote.png)
 
 
 ### Models used:
