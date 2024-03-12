@@ -99,7 +99,10 @@
 ### Optimal number of clusters turned out to be 4! 🎯
 ![Cluster Metrics](charts/cluster_metrics.png)
 
-### Clustering didn't directly lead to actionable insights, but provided valuable observations. 🔍
+### Clustering didn't directly lead to actionable insights, but provided valuable observations: 🔍
+
+- ### Men are generally wealthier and spend more responsibly.
+- ### Marital Status and Education are not statistically important indicators of wealth or spending habits.
 
 ### Mean Feature Values for each cluster:
 ![Mean Feature Values](charts/mean_feature_values.png)
@@ -116,6 +119,20 @@
 - XGBClassifier
 - LGBMClassifier
 - Ensemble techniques with the above models
+
+### Best Models 💻:
+
+| Model                     | Class 1 Recall | Class 1 F1 | Accuracy |
+|---------------------------|----------------|------------|----------|
+| Base XGBoost              | 0.89           | 0.91       | 0.97     |
+| Best XGBClassifier        | 0.92           | 0.87       | 0.96     |
+| Ensemble Tuned Models     | 0.9            | 0.89       | 0.96     |
+
+### Model to pick:
+- ### Best XGB, for identifying as much churners as possible.
+- ### Base XGB, for an overall well-rounded model performance
+- ### Ensemble Tuned Model, for a well-rounded performance weighted towards identifying more churners
+
 
 ### Evaluation Metrics:
 - Precision
