@@ -88,7 +88,7 @@
 - AgglomerativeClustering 
 - DBSCAN
 
-### Ended up using KMeans due to simplicity, since all of them had similar performance.
+### Ended up using KMeans for its ease of use and interpetability, since all of them had similar performance.
 
 ### Evaluation Metrics:
 - Inertia
@@ -131,7 +131,7 @@
 ### Model to pick:
 - ### Best XGB, for identifying as much churners as possible.
 - ### Base XGB, for an overall well-rounded model performance
-- ### Ensemble Tuned Model, for a well-rounded performance weighted towards identifying more churners
+- ### Ensemble Tuned Models, for a well-rounded performance weighted towards identifying more churners
 
 
 ### Evaluation Metrics:
